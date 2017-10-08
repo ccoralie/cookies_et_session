@@ -1,1 +1,2 @@
-# Quete_Cookie_et_Session
+Quête Cookie et Session 
+Wild Code School
