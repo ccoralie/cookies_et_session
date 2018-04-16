@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php
+session_start();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,24 +36,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a href="/logout.php" class="btn btn-warning navbar-btn">
-                    <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
-                    Logout
-                </a>
-            </li>
-            <li>
-                <a href="/vidercart.php" class="btn btn-warning navbar-btn">
-                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                    Cookie
-                </a>
-            </li>
-            <li>
-                <a href="/index.php" class="btn btn-warning navbar-btn">
-                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                    Home
-                </a>
-            </li>
+
           <li><a href="#">Chocolates chips</a></li>
           <li><a href="#">Nuts</a></li>
           <li><a href="#">Gluten full</a></li>
@@ -60,6 +45,12 @@
               <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
               Cart
             </a>
+          </li>
+          <li>
+              <a href="/logout.php" class="btn btn-warning navbar-btn">
+                  <span  aria-hidden="true"></span>
+                  Logout
+              </a>
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->

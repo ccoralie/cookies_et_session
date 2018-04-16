@@ -9,7 +9,7 @@ require "connected.php";
                 <thead>
                 <tr>
                     <th>Article</th>
-                    <th>Nombre</th>
+                    <th>Quantité</th>
                 </tr>
                 </thead>
                 <tbody>

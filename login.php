@@ -8,11 +8,11 @@ if (!empty($_POST['loginname'])) {
 
 if ((!empty($_SESSION["login"])))
 {
-    //le login a ete enregistré proposer index.php
+
     header('Location:index.php');
 }
 
-var_dump($_SESSION);
+
 ?>
 <div class="container" style="margin-top:40px">
 <div class="row">
